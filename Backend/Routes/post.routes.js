@@ -1,4 +1,4 @@
-const { auth, Owner } = require("../middleware/auth.middleware");
+const { auth, Owner } = require("../middlewares/auth.middlewares");
 const { Post } = require("../Model/post.model");
 const express = require("express");
 const postRoute = express.Router();
